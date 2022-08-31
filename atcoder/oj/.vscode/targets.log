@@ -1,0 +1,202 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.2.1
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Fri Jul  8 23:24:57 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# environment
+WSLENV = VSCODE_WSL_EXT_LOCATION/up
+# default
+.SHELLFLAGS := -c
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# automatic
+@F = $(notdir $@)
+# makefile
+CURDIR := /mnt/c/AtCoder
+# makefile
+SHELL = /bin/sh
+# environment
+VSCODE_NLS_CONFIG = {"locale":"ja","availableLanguages":{"*":"ja"},"_languagePackId":"96f3e8db934f372e4b51ec41decd7891.ja","_translationsConfigFile":"/home/sakasu/.vscode-server/data/clp/96f3e8db934f372e4b51ec41decd7891.ja/tcf.json","_cacheRoot":"/home/sakasu/.vscode-server/data/clp/96f3e8db934f372e4b51ec41decd7891.ja","_resolvedLanguagePackCoreLocation":"/home/sakasu/.vscode-server/data/clp/96f3e8db934f372e4b51ec41decd7891.ja/92d25e35d9bf1a6b16f7d0758f25d48ace11e5b9","_corruptedFile":"/home/sakasu/.vscode-server/data/clp/96f3e8db934f372e4b51ec41decd7891.ja/corrupted.info","_languagePackSupport":true}
+# environment
+_ = /home/sakasu/.vscode-server/bin/92d25e35d9bf1a6b16f7d0758f25d48ace11e5b9/node
+# makefile
+MAKEFILE_LIST := 
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+XDG_DATA_DIRS = /usr/local/share:/usr/share:/var/lib/snapd/desktop
+# environment
+VSCODE_CWD = /mnt/c/Users/sakas/AppData/Local/Programs/Microsoft VS Code
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+PATH = /home/sakasu/.vscode-server/bin/92d25e35d9bf1a6b16f7d0758f25d48ace11e5b9/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Program Files/Python39/Scripts/:/mnt/c/Program Files/Python39/:/mnt/c/Program Files (x86)/VMware/VMware Player/bin/:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files/gnuplot/bin:/mnt/c/anaconda3:/mnt/c/anaconda3/Scripts:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/CMake/bin:/mnt/c/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin:/mnt/c/Users/sakas/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/sakas/AppData/Roaming/npm:/mnt/c/anaconda3/Library/bin:/mnt/c/Users/sakas/AppData/Local/atom/bin:/mnt/c/texlive/2022/bin/win32:/mnt/c/Users/sakas/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin:/home/sakasu/.local/bin
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+VSCODE_IPC_HOOK_CLI = /tmp/vscode-ipc-bde86970-4c43-4174-b7dd-b2febcd33a85.sock
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# automatic
+%F = $(notdir $%)
+# environment
+PWD = /mnt/c/AtCoder
+# default
+.LOADED := 
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /home/sakasu
+# environment
+LOGNAME = sakasu
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+SHLVL = 0
+# default
+MAKE_VERSION := 4.2.1
+# environment
+USER = sakasu
+# makefile
+.DEFAULT_GOAL := 
+# environment
+NAME = TABLET-QCGGSVAS
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+VSCODE_WSL_EXT_LOCATION = /mnt/c/Users/sakas/.vscode/extensions/ms-vscode-remote.remote-wsl-0.66.3
+# default
+MAKE_COMMAND := make
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# makefile
+MAKEFLAGS = pqrR
+# environment
+MFLAGS = -pqrR
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# automatic
++F = $(notdir $+)
+# environment
+VSCODE_HANDLES_SIGPIPE = true
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+LC_ALL = C
+# environment
+HOSTTYPE = x86_64
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# default
+.RECIPEPREFIX := 
+# environment
+LANG = C
+# environment
+TERM = xterm-256color
+# environment
+WSL_DISTRO_NAME = Ubuntu-20.04
+# variable set hash-table stats:
+# Load=59/1024=6%, Rehash=0, Collisions=4/81=5%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 14, inode 8162774324709307): 25 files, no impossibilities.
+
+# 25 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+all:
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# Not a target:
+makefile:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+GNUmakefile:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# files hash-table stats:
+# Load=6/1024=1%, Rehash=0, Collisions=0/15=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 33 / storage = 253 B / avg = 7 B
+# current buf: size = 8162 B / used = 253 B / count = 33 / avg = 7 B
+
+# strcache performance: lookups = 36 / hit rate = 8%
+# hash-table stats:
+# Load=33/8192=0%, Rehash=0, Collisions=1/36=3%
+# Finished Make data base on Fri Jul  8 23:24:57 2022
+
+ 
+make: *** No rule to make target 'all'.  Stop.
+
