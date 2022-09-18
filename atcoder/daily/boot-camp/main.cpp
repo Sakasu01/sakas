@@ -20,30 +20,25 @@ using ll = long long;
 using P = pair<int, int>;
 // const ll mod = 10e9+7;
 
+//典型的なdx, dyの扱い
 int dx[3]={-1,0,1}, dy[3]={-1,0,1};
 
-
 int main(){
-    int h,w; cin>>h>>w;
-    vector<vector<char>> table(h, vector<char>(w));
-    rep(i,0,h){rep(j,0,w){
-        cin >> table[i][j];
-    }}
-    rep(i,0,h){rep(j,0,w){
-        int cnt=0;
-        if(table[i][j] == '#') continue;
-        rep(k,0,3){
-            rep(l,0,3){
-                int x = j + dx[k];
-                int y = i + dy[l];
-                if(x<0||x>=w || y<0||y>=h) continue;
-                if(table[y][x] == '#') cnt++;
-            }
+    ios::sync_with_stdio(false);
+    std::cin.tie(nullptr);
+    int N, ans = 0;
+    string S;
+    cin >> N >> S;
+    rep(i, 0, N) {
+        vector<bool> A(26, false), B(26, false);
+        rep(j, 0, N) {
+            if (j < i) A[S[j] - 'a'] = true;
+            else B[S[j] - 'a'] = true;
         }
-        table[i][j] = char(cnt + '0');
-    }}
-    rep(i,0,h){rep(j,0,w){
-        cout << table[i][j];
+        int C = 0;
+        rep(j, 0,26) C += A[j] && B[j];
+        ans = max(ans, C);
     }
-    cout << endl;}
+    cout << ans << endl;
+    return 0;
 }
